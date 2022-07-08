@@ -1,4 +1,5 @@
 import React, { ReactNode } from 'react';
+import Header from '../components/layout/Header';
 
 interface Props {
   children: ReactNode;
@@ -7,6 +8,7 @@ interface Props {
 const DefaultLayout = ({ children }: Props) => {
   return (
     <>
+      <Header />
       <div>
         <p>Main Layout</p>
       </div>
