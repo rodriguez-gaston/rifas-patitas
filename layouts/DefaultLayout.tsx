@@ -1,5 +1,6 @@
 import React, { ReactNode } from 'react';
-import Header from '../components/layout/Header';
+import Header from '@/components/layout/Header';
+import Footer from '@/components/layout/Footer';
 
 interface Props {
   children: ReactNode;
@@ -9,10 +10,8 @@ const DefaultLayout = ({ children }: Props) => {
   return (
     <>
       <Header />
-      <div>
-        <p>Main Layout</p>
-      </div>
       <main>{children}</main>
+      <Footer />
     </>
   );
 };
