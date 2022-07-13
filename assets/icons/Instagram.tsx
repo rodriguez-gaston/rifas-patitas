@@ -2,7 +2,11 @@ import React from 'react';
 
 const Instagram = () => {
   return (
-    <a href="https://instagram.com/patitasenaccionok" target="_blank" rel="noreferrer">
+    <a
+      href="https://instagram.com/patitasenaccionok"
+      target="_blank"
+      rel="noreferrer"
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className="icon icon-tabler icon-tabler-brand-instagram"
