@@ -1,14 +1,17 @@
-import Link from 'next/link';
+import NextLink from 'next/link';
 import React from 'react';
-import { Button } from '@chakra-ui/react';
+import { Link } from '@chakra-ui/react';
 
 const DonationSticky = () => {
   return (
-    <Link href={'/donar'}>
-      <Button
+    <NextLink href={'/donar'}>
+      <Link
         pos="fixed"
         bottom={5}
         right={5}
+        px={4}
+        py={2}
+        fontWeight="bold"
         borderRadius="full"
         bg="primary.700"
         color="white"
@@ -22,9 +25,8 @@ const DonationSticky = () => {
         }}
       >
         Donar
-      </Button>
-      {/* <button className="fixed bottom-5 right-4 bg-primary-700 text-white px-4 py-2 rounded-full hover:bg-primary-900">Donar</button> */}
-    </Link>
+      </Link>
+    </NextLink>
   );
 };
 
