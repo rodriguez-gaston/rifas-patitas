@@ -1,6 +1,6 @@
 import { Box, Stack } from '@chakra-ui/react';
 import React from 'react';
-import MenuItem from './MenuItem';
+import MenuItem from '@/components/layout/header/MenuItem';
 
 interface MenuListProps {
   isOpen: boolean;
