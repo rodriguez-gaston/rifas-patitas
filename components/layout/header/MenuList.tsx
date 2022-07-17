@@ -20,7 +20,10 @@ const MenuList = ({ isOpen }: MenuListProps) => {
         pt={[4, 4, 0, 0]}
       >
         <MenuItem to="/">Inicio</MenuItem>
+        <MenuItem to="/adoptar">Adoptar</MenuItem>
+        <MenuItem to="/ayudar">Ayudar</MenuItem>
         <MenuItem to="/donar">Donar</MenuItem>
+        <MenuItem to="/blog">Blog</MenuItem>
       </Stack>
     </Box>
   );
